@@ -4,4 +4,63 @@
     align-items: center;
     margin: auto;
     margin-top: 88px;
+    
+}
+
+.context{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0px;
+    width: 0;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-banner{
+    display: flex;
+    flex: 1 1 0px;
+    width: 0;
+    justify-content: center;
+    align-items: center;
+}
+.img-banner .model{
+    width: 563px;
+}
+
+.context .title{
+    font-family: 'Google Sans';
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 76px;
+}
+
+.context .dscrpt{
+    font-family: 'Google Sans';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 76px;
+    color: #3C6771;
+}
+
+.context p{
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+.job-btn{
+    display: flex;
+    background: #A5B862;
+    border-radius: 64px;
+    color: white;
+    padding: 12px 32px;
+    width: 193px;
+    height: 52px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    justify-content: center;
 }
