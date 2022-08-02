@@ -1,0 +1,7 @@
+#banner{
+    width: 1120px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 88px;
+}
