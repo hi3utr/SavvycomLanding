@@ -8,20 +8,25 @@
     <link rel="stylesheet" href="./css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Google Sans' rel='stylesheet'>
-    <link rel="stylesheet" href="icon/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 </head>
 <body>
     <div id="wrapper">
         <!-- Header -->
         <div id="header">
             <div id="nav">
-                <div class="logo"><a href=""><img src="./img/Group 29.svg" alt="" srcset=""></a></div>
+                <div class="logo"><a href=""><img class="savv-logo" src="./img/Group 29.svg" alt="" srcset=""></a></div>
                 <div class="nav-item"><a class="nav-item-link" href="#job-list">Jobs</a></div>
                 <div class="nav-item"><a class="nav-item-link" href="#about-us">About Us</a></div>
                 <div class="nav-item"><a class="nav-item-link" href="#value">Core Values</a></div>
                 <div class="nav-item"><a class="nav-item-link" href="#footer">Contact</a></div>
                 <div class="apply-btn"><a class="apply" href="#form">Apply now</a></div>
-                <div class="drop-down"><img src="./img/GB.svg" alt=""></div>
+                <div class="drop-down">
+                    <img onclick="myFunction()" class="dropbtn" src="./img/GB.svg" alt="">
+                    <div id="myDropdown" class="dropdown-content">
+                        <img src="https://careers.savvycom.vn/images/vi.png" alt="">
+                      </div>
+                </div>
             </div>
         </div>
 
@@ -39,6 +44,278 @@
 
         <div id="job-list">
             <h1 class="job-context">Our available jobs</h1>
+            <div class="search-bar">
+                <input class="search-input" type="text" placeholder="Looking for...">
+                <i class="search-icon fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="job-tab">
+                <!-- Tab panel -->
+                <div class="tab-item active">All</div>
+                <div class="tab-item">Tech Office</div>
+                <div class="tab-item">Sale/Marketing Office</div>
+                <div class="tab-item">Back Office</div>
+            </div>
+            <div class="tab-content">
+                <div class="tab-context active">
+                    <p class="tab-title">PR Executive</p>
+                    <div class="tab-detail">
+                        <div class="row">
+                            <div class="cld">
+                                <i class="job-icon fa-solid fa-calendar"></i>
+                                31/08/2022
+                            </div>
+                            <div class="sal">
+                                <i class="job-icon fa-solid fa-dollar-sign"></i>
+                                Up to 20.000.000VND
+                            </div>
+                            <div class="loc">
+                                <i class="job-icon fa-solid fa-location-dot"></i>
+                                Hanoi, Vietnam
+                            </div>
+                            <div class="time">
+                                <i class="job-icon fa-solid fa-clock"></i>
+                                Fulltime
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+                <div class="tab-context active">
+                    <p class="tab-title">UI/UX Designer Intern</p>
+                    <div class="tab-detail">
+                        <div class="row">
+                            <div class="cld">
+                                <i class="job-icon fa-solid fa-calendar"></i>
+                                01/09/2022
+                            </div>
+                            <div class="sal">
+                                <i class="job-icon fa-solid fa-dollar-sign"></i>
+                                Up to 5.000.000VND
+                            </div>
+                        
+                            <div class="loc">
+                                <i class="job-icon fa-solid fa-location-dot"></i>
+                                Hanoi, Vietnam
+                            </div>
+                            <div class="time">
+                                <i class="job-icon fa-solid fa-clock"></i>
+                                Fulltime
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="tab-context active">
+                    <p class="tab-title">Tester Intern</p>
+                    <div class="tab-detail">
+                        <div class="row">
+                            <div class="cld">
+                                <i class="job-icon fa-solid fa-calendar"></i>
+                                01/09/2022
+                            </div>
+                            <div class="sal">
+                                <i class="job-icon fa-solid fa-dollar-sign"></i>
+                                Up to 5.000.000VND
+                            </div>
+                        
+                            <div class="loc">
+                                <i class="job-icon fa-solid fa-location-dot"></i>
+                                Hanoi, Vietnam
+                            </div>
+                            <div class="time">
+                                <i class="job-icon fa-solid fa-clock"></i>
+                                Fulltime
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="tab-context active">
+                    <p class="tab-title">Java Developer (Remote Fulltime)</p>
+                    <div class="tab-detail">
+                        <div class="row">
+                            <div class="cld">
+                                <i class="job-icon fa-solid fa-calendar"></i>
+                                31/08/2022
+                            </div>
+                            <div class="sal">
+                                <i class="job-icon fa-solid fa-dollar-sign"></i>
+                                Negotiate
+                            </div>
+                        
+                            <div class="loc">
+                                <i class="job-icon fa-solid fa-location-dot"></i>
+                                Vietnam
+                            </div>
+                            <div class="time">
+                                <i class="job-icon fa-solid fa-clock"></i>
+                                Remote Fulltime
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="tab-context">
+                    <p class="tab-title">Business Development Collaborator</p>
+                    <div class="tab-detail">
+                        <div class="row">
+                            <div class="cld">
+                                <i class="job-icon fa-solid fa-calendar"></i>
+                                31/08/2022
+                            </div>
+                            <div class="sal">
+                                <i class="job-icon fa-solid fa-dollar-sign"></i>
+                                Up to 3.000.000VND + Commission
+                            </div>
+                        
+                            <div class="loc">
+                                <i class="job-icon fa-solid fa-location-dot"></i>
+                                Hanoi, Vietnam
+                            </div>
+                            <div class="time">
+                                <i class="job-icon fa-solid fa-clock"></i>
+                                Fulltime
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="tab-context">
+                    <p class="tab-title">Content Marketing Executive</p>
+                    <div class="tab-detail">
+                        <div class="row">
+                            <div class="cld">
+                                <i class="job-icon fa-solid fa-calendar"></i>
+                                31/08/2022
+                            </div>
+                            <div class="sal">
+                                <i class="job-icon fa-solid fa-dollar-sign"></i>
+                                Up to 15.000.000VND
+                            </div>
+                        
+                            <div class="loc">
+                                <i class="job-icon fa-solid fa-location-dot"></i>
+                                Hanoi, Vietnam
+                            </div>
+                            <div class="time">
+                                <i class="job-icon fa-solid fa-clock"></i>
+                                Fulltime
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="tab-context">
+                    <p class="tab-title">Sales Executive</p>
+                    <div class="tab-detail">
+                        <div class="row">
+                            <div class="cld">
+                                <i class="job-icon fa-solid fa-calendar"></i>
+                                31/08/2022
+                            </div>
+                            <div class="sal">
+                                <i class="job-icon fa-solid fa-dollar-sign"></i>
+                                Up to 30.000.000VND
+                            </div>
+                        
+                            <div class="loc">
+                                <i class="job-icon fa-solid fa-location-dot"></i>
+                                Hanoi, Vietnam
+                            </div>
+                            <div class="time">
+                                <i class="job-icon fa-solid fa-clock"></i>
+                                Fulltime
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="tab-context">
+                    <p class="tab-title">Business Analyst</p>
+                    <div class="tab-detail">
+                        <div class="row">
+                            <div class="cld">
+                                <i class="job-icon fa-solid fa-calendar"></i>
+                                31/08/2022
+                            </div>
+                            <div class="sal">
+                                <i class="job-icon fa-solid fa-dollar-sign"></i>
+                                Up to 30.000.000VND
+                            </div>
+                        
+                            <div class="loc">
+                                <i class="job-icon fa-solid fa-location-dot"></i>
+                                Hanoi, Vietnam
+                            </div>
+                            <div class="time">
+                                <i class="job-icon fa-solid fa-clock"></i>
+                                Fulltime
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="tab-context">
+                    <p class="tab-title">Chief Accountant</p>
+                    <div class="tab-detail">
+                        <div class="row">
+                            <div class="cld">
+                                <i class="job-icon fa-solid fa-calendar"></i>
+                                31/08/2022
+                            </div>
+                            <div class="sal">
+                                <i class="job-icon fa-solid fa-dollar-sign"></i>
+                                Up to 40.000.000VND
+                            </div>
+                        
+                            <div class="loc">
+                                <i class="job-icon fa-solid fa-location-dot"></i>
+                                Hanoi, Vietnam
+                            </div>
+                            <div class="time">
+                                <i class="job-icon fa-solid fa-clock"></i>
+                                Fulltime
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><div class="tab-context">
+                <p class="tab-title">Sales Intern</p>
+                <div class="tab-detail">
+                    <div class="row">
+                        <div class="cld">
+                            <i class="job-icon fa-solid fa-calendar"></i>
+                            31/08/2022
+                        </div>
+                        <div class="sal">
+                            <i class="job-icon fa-solid fa-dollar-sign"></i>
+                            Up to 3.000.000VND
+                        </div>
+                    
+                        <div class="loc">
+                            <i class="job-icon fa-solid fa-location-dot"></i>
+                            Hanoi, Vietnam
+                        </div>
+                        <div class="time">
+                            <i class="job-icon fa-solid fa-clock"></i>
+                            Fulltime/Parttime
+                        </div>
+                    </div>
+                    <div class="arr-icon">
+                        <i class="job-icon fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </div></div><div class="tab-context">
+                <p class="tab-title">General Accountant</p>
+                <div class="tab-detail">
+                    <div class="row">
+                        <div class="cld">
+                            <i class="job-icon fa-solid fa-calendar"></i>
+                            31/08/2022
+                        </div>
+                        <div class="sal">
+                            <i class="job-icon fa-solid fa-dollar-sign"></i>
+                            Up to 15.000.000VND
+                        </div>
+                        <div class="loc">
+                            <i class="job-icon fa-solid fa-location-dot"></i>
+                            Hanoi, Vietnam
+                        </div>
+                        <div class="time">
+                            <i class="job-icon fa-solid fa-clock"></i>
+                            Fulltime
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+            <div class="more-btn">More</div>
         </div>
 
         <div id="about-us">
@@ -60,4 +337,5 @@
     
 
 </body>
+<script src="main.js"></script>
 </html>
