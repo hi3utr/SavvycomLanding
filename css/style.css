@@ -1,6 +1,8 @@
 @import url("header.css");
 @import url("banner.css");
 @import url("job-list.css");
+@import url("about.css");
+@import url("value.css");
 *{
     padding: 0;
     margin: 0;

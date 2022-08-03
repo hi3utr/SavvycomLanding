@@ -1,0 +1,67 @@
+#about-us{
+    width: 1120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: #212529;
+    margin-bottom: 100px;
+}
+
+.abt-content{
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.abt-title{
+    text-align: center;
+    font-size: 58px;
+    font-weight: 700;
+    font-family: 'Google Sans';
+}
+
+.abt-detail{
+    width: 722px;
+    margin-bottom: 36px;
+    line-height: 24px;
+    
+}
+
+.abt-fact{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+.fact{
+    padding: 24px 16px;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    border-radius: 16px;
+    text-align: center;
+    height: 120px;
+    width: 328px;
+    margin-right: 16px;
+}
+
+.fact:hover{
+    background-color: #A5B862;
+    color: white;
+    transition: ease 0.5s;
+}
+
+.fact-title{
+    padding-bottom: 12px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.fact-detail{
+    font-size: 14px;
+}

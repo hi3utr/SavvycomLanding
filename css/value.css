@@ -1,0 +1,48 @@
+#value{
+    display: flex;
+    width: 1120px;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 130px;
+}
+
+.val-content{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    gap: 25px;
+}
+
+.val-title{
+    font-size: 58px;
+    font-weight: 700;
+    font-family: 'Google Sans';
+    text-align: center;
+    flex-direction: row;
+    margin-bottom: 32px;
+}
+
+.val-img{
+    position: relative;
+    transition: ease 0.5s;
+}
+
+.val-img:hover{
+    opacity: 0.8;
+}
+
+.image-val{
+    display: block;
+    width: 503px;
+    /* position: relative; */
+}
+
+.val-context{
+    display: block;
+    position: absolute;
+    width: 100%;
+    padding: 0 25px;
+    bottom: 20px;
+    color: white;
+    font-size: 22px;
+}
