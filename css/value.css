@@ -25,6 +25,7 @@
 .val-img{
     position: relative;
     transition: ease 0.5s;
+    
 }
 
 .val-img:hover{
@@ -33,7 +34,7 @@
 
 .image-val{
     display: block;
-    width: 503px;
+    width: 100%;
     /* position: relative; */
 }
 

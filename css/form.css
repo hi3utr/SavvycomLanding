@@ -1,0 +1,51 @@
+#form{
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    background: #3C6771;
+    border-radius: 20px;
+    color: white;
+    padding: 32px;
+}
+
+.apply-content{
+    padding-right: 86px;
+    width: 75%;
+}
+
+.apply-title{
+    display: block;
+    font-family: 'Google Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+}
+
+.apply-dscrpt{
+    line-height: 24px;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.apply-pls{
+    font-size: 24px;
+    font-family: 'Open Sans';
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+input {
+    border-radius: 30px;
+    width: 100%;
+    height: 43px;
+    border-style: none;
+}
+
+.form-items{
+    margin-bottom: 20px;
+}

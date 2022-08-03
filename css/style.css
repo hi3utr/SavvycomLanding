@@ -3,6 +3,7 @@
 @import url("job-list.css");
 @import url("about.css");
 @import url("value.css");
+@import url("form.css");
 *{
     padding: 0;
     margin: 0;
