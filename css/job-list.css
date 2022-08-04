@@ -37,6 +37,10 @@
     font-family: 'Open Sans';
 }
 
+.search-input:focus {
+    outline: none;
+}
+
 .search-icon{
     display: flex;
     position: absolute;
