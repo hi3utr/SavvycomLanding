@@ -44,7 +44,7 @@
 }
 
 .scroller{
-    animation: flip3 9s cubic-bezier(.23,1,.32,1.2) infinite;
+   
 }
 
 .context .dscrpt{
@@ -52,6 +52,7 @@
     font-weight: 700;
     font-size: 45px;
     line-height: 76px;
+    
 }
 
 .dev{
@@ -90,21 +91,3 @@
     color: white;
     text-decoration: none;
 }
-
-@-webkit-keyframes my-animation {
-    from { -webkit-transform: translateY(-100%); }
-    to { -webkit-transform: translateY(100%); }
-  }
-  
-  @keyframes my-animation {
-    from {
-      -moz-transform: translateY(-100%);
-      -webkit-transform: translateY(-100%);
-      transform: translateY(-100%);
-    }
-    to {
-      -moz-transform: translateY(100%);
-      -webkit-transform: translateY(100%);
-      transform: translateY(100%);
-    }
-  }
