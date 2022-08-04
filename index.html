@@ -33,7 +33,11 @@
         <div id="banner">
             <div class="context">
                 <h1 class = "title">Opportunities are available at Savvycom <img class="star-img" src="./img/Subtract.svg" alt=""></h1>
-                <h1 class = "dscrpt">Developer</h1>
+                <div class="scroller">
+                    <h1 class = "dscrpt dev">Developer</h1>
+                    <!-- <h1 class = "dscrpt bo">Back Office</h1>
+                    <h1 class = "dscrpt bu">Business</h1> -->
+                </div>
                 <p>Are you looking for a place where all the brilliant minds gather under the same roof, then look no further than Savvycom.</p>
                 <div class="job-btn"><a href="#job-list">View all positions</a></div>
             </div>
@@ -45,7 +49,7 @@
         <div id="job-list">
             <h1 class="job-context">Our available jobs</h1>
             <div class="search-bar">
-                <input class="search-input" type="text" placeholder="Looking for...">
+                <input id="myInput" class="search-input" onkeyup="searchFunction()" type="text" placeholder="Looking for...">
                 <i class="search-icon fa-solid fa-magnifying-glass"></i>
             </div>
             <div class="job-tab">

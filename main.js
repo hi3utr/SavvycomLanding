@@ -1,3 +1,4 @@
+// Dropdown button
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
@@ -15,6 +16,7 @@ function myFunction() {
       }
     }
   }
+// End dropdown
 
 // const $ = document.querySelector.bind(document)
 // const $$ = document.querySelectorAll.bind(document)
@@ -37,3 +39,25 @@ function myFunction() {
 //         context.classList.add('active')
 //     }
 // }) 
+
+// Search function
+function searchFunction() {
+  // Declare variables
+  var input, filter, content, active, p, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  content = document.querySelector(".tab-content");
+  active = content.getElementsByClassName('tab-context active');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < active.length; i++) {
+    p = active[i].getElementsByTagName("p")[0];
+    txtValue = p.textContent || p.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      active[i].style.display = "";
+    } else {
+      active[i].style.display = "none";
+    }
+  }
+}
+// End search function
