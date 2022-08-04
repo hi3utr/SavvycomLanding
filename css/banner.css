@@ -60,7 +60,6 @@
     display: flex;
     background: #A5B862;
     border-radius: 64px;
-    color: white;
     padding: 12px 32px;
     width: 193px;
     height: 52px;
@@ -69,4 +68,10 @@
     line-height: 24px;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+
+.job-btn a{
+    color: white;
+    text-decoration: none;
 }

@@ -1,0 +1,129 @@
+#footer {
+    background-color: black;
+}
+
+.main-foot {
+    font-family: 'Open Sans', sans-serif;
+    width: 1120px;
+    color: white;
+    display: flex;
+    padding: 50px 0;
+    margin: auto;
+}
+
+.foot-info {
+    width: 100%;
+}
+
+.foot-logo{
+    padding-bottom: 26px;
+}
+
+.foot-flex-row{
+    display: flex;
+    
+}
+
+.main-foot-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0px;
+    margin-right: 200px;
+}
+
+.main-foot-left p{
+    width: 600px;
+   
+}
+
+.foot-dscrpt{
+    line-height: 24px;
+    color: rgba(255,255,255,.85);
+    padding-bottom: 26px;
+}
+
+.savv-name{
+    padding-bottom: 13px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.foot-loc{
+    width: 320px;
+}
+
+.foot-loc i{
+    padding-right: 5px;
+    font-size: 22px
+}
+
+.foot-loc a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 24px;
+}
+
+.foot-loc a:hover {
+    opacity: 0.8;
+}
+
+.foot-contact{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0px;
+}
+
+.foot-contact i{
+    padding-right: 5px;
+}
+
+.foot-contact a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.pad12{
+    padding-bottom: 12px;
+}
+
+.ct-us{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.foot-line{
+    border: 0.5px solid rgba(255, 255, 255, 0.75);
+}
+
+.sub-foot{
+    display: flex;
+    height: 94px;
+    margin: auto;
+    width: 1120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-foot-item{
+    display: flex;
+    flex: 1;
+    justify-content: left;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.sub-foot-item a:hover{
+    color: #e0e0e0;
+}
+
+.sub-foot-item i{
+    padding-right: 8px;
+}
+
+.sub-foot a{
+    text-decoration: none;
+    color: rgba(255,255,255,.75);
+}
+
+
