@@ -55,10 +55,6 @@
     display: none;
 }
 
-.active{
-    display: block;
-}
-
 .dev{
     color: #3C6771;
 }
