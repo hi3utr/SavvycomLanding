@@ -7,6 +7,7 @@
     color: white;
     padding: 32px;
     margin-bottom: 136px;
+    font: 'Open Sans', sans-serif;
 }
 
 .apply-content{
@@ -27,11 +28,13 @@
     line-height: 24px;
     margin: 16px 0;
     font-size: 16px;
+    font: 16px 'Open Sans', sans-serif;
 }
 
 .apply-pls{
     font-size: 24px;
     font-family: 'Open Sans';
+    font-weight: 700;
 }
 
 .form-container{
@@ -53,6 +56,7 @@ input {
 
 .form-items{
     margin-bottom: 20px;
+    font: 16px 'Open Sans', sans-serif;
 }
 
 

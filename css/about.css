@@ -27,8 +27,8 @@
 .abt-detail{
     width: 722px;
     margin-bottom: 36px;
-    line-height: 24px;
-    
+    font: 16px 'Open Sans', sans-serif;
+    line-height: 24px;   
 }
 
 .abt-fact{
@@ -48,6 +48,7 @@
     height: 120px;
     width: 328px;
     margin-right: 16px;
+    font: 16px 'Open Sans', sans-serif;
 }
 
 .fact:hover{

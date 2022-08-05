@@ -52,7 +52,11 @@
     font-weight: 700;
     font-size: 45px;
     line-height: 76px;
-    
+    display: none;
+}
+
+.active{
+    display: block;
 }
 
 .dev{
@@ -70,6 +74,7 @@
 .context p{
     margin-top: 20px;
     margin-bottom: 32px;
+    font: 16px 'Open Sans', sans-serif;
 }
 
 .job-btn{
@@ -79,8 +84,6 @@
     padding: 12px 32px;
     width: 193px;
     height: 52px;
-    font-weight: 700;
-    font-size: 16px;
     line-height: 24px;
     align-items: center;
     justify-content: center;
@@ -90,4 +93,6 @@
 .job-btn a{
     color: white;
     text-decoration: none;
+    font: 16px 'Open Sans', sans-serif;
+    font-weight: 700;
 }
