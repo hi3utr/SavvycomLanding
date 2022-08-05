@@ -74,6 +74,13 @@
     transition: ease 0.5s;
 }
 
+.tab-item.active{
+    background: #A5B862;
+    border-style: none;
+    color: white;
+    transition: ease 0.5s;
+}
+
 .tab-content{
     display: grid;
     grid-template-columns: 544px auto;
@@ -84,11 +91,11 @@
     margin-bottom: 32px;
 }
 
-.tab-context{
+/* .tab-context{
     display: none;
-}
+} */
 
-.tab-context.active{
+.tab-context{
     position: relative;
     display: block;
     justify-content: center;
@@ -99,15 +106,16 @@
     box-sizing: border-box;
     border-radius: 16px;
     cursor: pointer;
-    width: 540px;
+    width: 553px;
 }
 
-.tab-context.active:hover{
+.tab-context:hover{
     background-color: #A5B862;
     color: white;
     transition: ease 0.5s;
 }
-.tab-context.active:hover i{
+
+.tab-context:hover i{
     background-color: #A5B862;
     color: white;
     transition: ease 0.5s;
@@ -173,4 +181,14 @@
     color: #e0e0e0;
     font-size: 24px;
     
+}
+
+.block {
+    display: grid;
+    grid-template-columns: 544px auto;
+    gap: 20px;
+}
+
+.default {
+    display: none;
 }

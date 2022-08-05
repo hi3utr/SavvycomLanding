@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Savvycom REC</title>
+    <link rel = "icon" href ="https://www.abnewswire.com/uploads/1615999688.png">
     <link rel="stylesheet" href="./css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Google Sans' rel='stylesheet'>
@@ -16,7 +17,7 @@
         <!-- Header -->
         <div id="header">
             <div id="nav">
-                <div class="logo"><a href=""><img class="savv-logo" src="./img/Group 29.svg" alt="" srcset=""></a></div>
+                <div class="logo"><a href="#banner"><img class="savv-logo" src="./img/Group 29.svg" alt="" srcset=""></a></div>
                 <div class="nav-item"><a class="nav-item-link" href="#job-list">Jobs</a></div>
                 <div class="nav-item"><a class="nav-item-link" href="#about-us">About Us</a></div>
                 <div class="nav-item"><a class="nav-item-link" href="#value">Core Values</a></div>
@@ -55,13 +56,14 @@
             </div>
             <div class="job-tab">
                 <!-- Tab panel -->
-                <div class="tab-item active">All</div>
-                <div class="tab-item">Tech Office</div>
-                <div class="tab-item">Sale/Marketing Office</div>
-                <div class="tab-item">Back Office</div>
+                <div class="tab-item" onclick="openTab(event, 'All')" >All</div>
+                <div class="tab-item" onclick="openTab(event, 'Tech')">Tech Office</div>
+                <div class="tab-item" onclick="openTab(event, 'Sale')">Sale/Marketing Office</div>
+                <div class="tab-item" onclick="openTab(event, 'Back')">Back Office</div>
             </div>
             <div class="tab-content">
-                <div class="tab-context active">
+                <div id="All" class="block">
+                <div class="tab-context">
                     <p class="tab-title">PR Executive</p>
                     <div class="tab-detail">
                         <div class="row">
@@ -87,7 +89,7 @@
                         <i class="job-icon fa-solid fa-angle-right"></i>
                     </div>
                 </div>
-                <div class="tab-context active">
+                <div class="tab-context">
                     <p class="tab-title">UI/UX Designer Intern</p>
                     <div class="tab-detail">
                         <div class="row">
@@ -114,7 +116,7 @@
                         <i class="job-icon fa-solid fa-angle-right"></i>
                     </div>
                 </div>
-                <div class="tab-context active">
+                <div class="tab-context">
                     <p class="tab-title">Tester Intern</p>
                     <div class="tab-detail">
                         <div class="row">
@@ -141,7 +143,7 @@
                         <i class="job-icon fa-solid fa-angle-right"></i>
                     </div>
                 </div>
-                <div class="tab-context active">
+                <div class="tab-context">
                     <p class="tab-title">Java Developer (Remote Fulltime)</p>
                     <div class="tab-detail">
                         <div class="row">
@@ -168,6 +170,117 @@
                         <i class="job-icon fa-solid fa-angle-right"></i>
                     </div>
                 </div>
+                </div>
+                <div id="Tech" class="block default">
+                    <div class="tab-context">
+                        <p class="tab-title">Fullstack</p>
+                        <div class="tab-detail">
+                            <div class="row">
+                                <div class="cld">
+                                    <i class="job-icon fa-solid fa-calendar"></i>
+                                    31/08/2022
+                                </div>
+                                <div class="sal">
+                                    <i class="job-icon fa-solid fa-dollar-sign"></i>
+                                    Negotiate
+                                </div>
+                                <div class="loc">
+                                    <i class="job-icon fa-solid fa-location-dot"></i>
+                                    Hanoi, Vietnam
+                                </div>
+                                <div class="time">
+                                    <i class="job-icon fa-solid fa-clock"></i>
+                                    Fulltime
+                                </div>
+                            </div>   
+                        </div>
+                        <div class="arr-icon">
+                            <i class="job-icon fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                    <div class="tab-context">
+                        <p class="tab-title">UI/UX Designer Intern</p>
+                        <div class="tab-detail">
+                            <div class="row">
+                                <div class="cld">
+                                    <i class="job-icon fa-solid fa-calendar"></i>
+                                    01/09/2022
+                                </div>
+                                <div class="sal">
+                                    <i class="job-icon fa-solid fa-dollar-sign"></i>
+                                    Up to 5.000.000VND
+                                </div>
+                            
+                                <div class="loc">
+                                    <i class="job-icon fa-solid fa-location-dot"></i>
+                                    Hanoi, Vietnam
+                                </div>
+                                <div class="time">
+                                    <i class="job-icon fa-solid fa-clock"></i>
+                                    Fulltime
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arr-icon">
+                            <i class="job-icon fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                    <div class="tab-context">
+                        <p class="tab-title">Tester Intern</p>
+                        <div class="tab-detail">
+                            <div class="row">
+                                <div class="cld">
+                                    <i class="job-icon fa-solid fa-calendar"></i>
+                                    01/09/2022
+                                </div>
+                                <div class="sal">
+                                    <i class="job-icon fa-solid fa-dollar-sign"></i>
+                                    Up to 5.000.000VND
+                                </div>
+                            
+                                <div class="loc">
+                                    <i class="job-icon fa-solid fa-location-dot"></i>
+                                    Hanoi, Vietnam
+                                </div>
+                                <div class="time">
+                                    <i class="job-icon fa-solid fa-clock"></i>
+                                    Fulltime
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arr-icon">
+                            <i class="job-icon fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                    <div class="tab-context">
+                        <p class="tab-title">Java Developer (Remote Fulltime)</p>
+                        <div class="tab-detail">
+                            <div class="row">
+                                <div class="cld">
+                                    <i class="job-icon fa-solid fa-calendar"></i>
+                                    31/08/2022
+                                </div>
+                                <div class="sal">
+                                    <i class="job-icon fa-solid fa-dollar-sign"></i>
+                                    Negotiate
+                                </div>
+                            
+                                <div class="loc">
+                                    <i class="job-icon fa-solid fa-location-dot"></i>
+                                    Vietnam
+                                </div>
+                                <div class="time">
+                                    <i class="job-icon fa-solid fa-clock"></i>
+                                    Remote Fulltime
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arr-icon">
+                            <i class="job-icon fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                    </div>
+                <div id="Sale" class="block default">
                 <div class="tab-context">
                     <p class="tab-title">Business Development Collaborator</p>
                     <div class="tab-detail">
@@ -188,6 +301,9 @@
                             <div class="time">
                                 <i class="job-icon fa-solid fa-clock"></i>
                                 Fulltime
+                            </div>
+                            <div class="arr-icon">
+                                <i class="job-icon fa-solid fa-angle-right"></i>
                             </div>
                         </div>
                     </div>
@@ -213,6 +329,9 @@
                                 <i class="job-icon fa-solid fa-clock"></i>
                                 Fulltime
                             </div>
+                            <div class="arr-icon">
+                                <i class="job-icon fa-solid fa-angle-right"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -236,6 +355,9 @@
                             <div class="time">
                                 <i class="job-icon fa-solid fa-clock"></i>
                                 Fulltime
+                            </div>
+                            <div class="arr-icon">
+                                <i class="job-icon fa-solid fa-angle-right"></i>
                             </div>
                         </div>
                     </div>
@@ -261,9 +383,14 @@
                                 <i class="job-icon fa-solid fa-clock"></i>
                                 Fulltime
                             </div>
+                            <div class="arr-icon">
+                                <i class="job-icon fa-solid fa-angle-right"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
+                </div>
+                <div id="Back" class="block default">
                 <div class="tab-context">
                     <p class="tab-title">Chief Accountant</p>
                     <div class="tab-detail">
@@ -285,15 +412,17 @@
                                 <i class="job-icon fa-solid fa-clock"></i>
                                 Fulltime
                             </div>
+                            <div class="arr-icon">
+                                <i class="job-icon fa-solid fa-angle-right"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="tab-context">
-                <p class="tab-title">Sales Intern</p>
-                <div class="tab-detail">
-                    <div class="row">
-                        <div class="cld">
+                <div class="tab-context">
+                    <p class="tab-title">Sales Intern</p>
+                    <div class="tab-detail">
+                        <div class="row">
+                            <div class="cld">
                             <i class="job-icon fa-solid fa-calendar"></i>
                             31/08/2022
                         </div>
@@ -301,7 +430,7 @@
                             <i class="job-icon fa-solid fa-dollar-sign"></i>
                             Up to 3.000.000VND
                         </div>
-                    
+                        
                         <div class="loc">
                             <i class="job-icon fa-solid fa-location-dot"></i>
                             Hanoi, Vietnam
@@ -310,8 +439,10 @@
                             <i class="job-icon fa-solid fa-clock"></i>
                             Fulltime/Parttime
                         </div>
+                        <div class="arr-icon">
+                            <i class="job-icon fa-solid fa-angle-right"></i>
+                        </div>
                     </div>
-                    
                 </div>
             </div>
             <div class="tab-context">
@@ -334,12 +465,43 @@
                             <i class="job-icon fa-solid fa-clock"></i>
                             Fulltime
                         </div>
+                        <div class="arr-icon">
+                            <i class="job-icon fa-solid fa-angle-right"></i>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="tab-context">
+                <p class="tab-title">Business Analyst</p>
+                <div class="tab-detail">
+                    <div class="row">
+                        <div class="cld">
+                            <i class="job-icon fa-solid fa-calendar"></i>
+                            31/08/2022
+                        </div>
+                        <div class="sal">
+                            <i class="job-icon fa-solid fa-dollar-sign"></i>
+                            Up to 30.000.000VND
+                        </div>
+                        <div class="loc">
+                            <i class="job-icon fa-solid fa-location-dot"></i>
+                            Hanoi, Vietnam
+                        </div>
+                        <div class="time">
+                            <i class="job-icon fa-solid fa-clock"></i>
+                            Fulltime
+                        </div>
+                        <div class="arr-icon">
+                            <i class="job-icon fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
             <div class="more-btn">More</div>
         </div>
-
+        
         <div id="about-us">
             <div class="abt-content">
                 <h1 class="abt-title">About Savvycom</h1>
@@ -357,10 +519,14 @@
                         <p class="fact-title">2011</p>
                         <p class="fact-detail">Microstrategy Partner</p>
                     </div>
+                    <div class="fact">
+                        <p class="fact-title">2012</p>
+                        <p class="fact-detail">ISO 9001:2009 Certificate</p>
+                    </div>
                 </div>
             </div>
         </div>
-
+        
         <div id="value">
             <div class="val-title">Values</div>
             <div class="val-content">

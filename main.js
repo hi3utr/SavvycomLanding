@@ -25,7 +25,7 @@ function searchFunction() {
   input = document.getElementById('myInput');
   filter = input.value.toUpperCase();
   content = document.querySelector(".tab-content");
-  active = content.getElementsByClassName('tab-context active');
+  active = content.getElementsByClassName('tab-context');
 
   // Loop through all list items, and hide those who don't match the search query
   for (i = 0; i < active.length; i++) {
@@ -54,4 +54,21 @@ function scroller() {
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
   setTimeout(scroller, 3000); // Change image every 3 seconds
+}
+
+//Job tab
+function openTab(evt, tabName) {
+  var i, block, tablinks;
+  block = document.getElementsByClassName("block");
+  console.log(block)
+  for (i = 0; i < block.length; i++) {
+    block[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tab-item");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "grid";
+  document.getElementById(tabName).style.gap = "20px";
+  evt.currentTarget.className += " active";
 }
