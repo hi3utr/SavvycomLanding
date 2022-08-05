@@ -39,8 +39,7 @@
     font-size: 58px;
     line-height: 76px;
     margin-top: 100px;
-    /* display: flex; */
-    /* justify-content: space-around; */
+    margin-bottom: 0;
 }
 
 .scroller{
@@ -51,7 +50,6 @@
     font-family: 'Google Sans';
     font-weight: 700;
     font-size: 45px;
-    line-height: 76px;
     display: none;
 }
 
@@ -68,7 +66,6 @@
 }
 
 .context p{
-    margin-top: 20px;
     margin-bottom: 32px;
     font: 16px 'Open Sans', sans-serif;
 }
