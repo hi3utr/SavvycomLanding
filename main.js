@@ -4,13 +4,18 @@ function myFunction() {
   }
   
   // Close the dropdown menu if the user clicks outside of it
-  window.onclick = function(event) {
+  myDropdown.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
       var dropdowns = document.getElementsByClassName("dropdown-content");
+      var dropbtn = document.getElementById("dropbtn")
+      var vidropdown = document.getElementById("viDropdown");
       var i;
       for (i = 0; i < dropdowns.length; i++) {
         var openDropdown = dropdowns[i];
         if (openDropdown.classList.contains('show')) {
+          // dropbtn.classList.replace('dropdown-content');
+          dropbtn.src = "https://careers.savvycom.vn/images/vi.png"
+          vidropdown.src ="./img/GB.svg"
           openDropdown.classList.remove('show');
         }
       }
@@ -66,7 +71,7 @@ function openTab(evt, tabName) {
   }
   tablinks = document.getElementsByClassName("tab-item");
   for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
+    tablinks[i].className = tablinks[i].className.replace("active", "");
   }
   document.getElementById(tabName).style.display = "grid";
   document.getElementById(tabName).style.gap = "20px";
