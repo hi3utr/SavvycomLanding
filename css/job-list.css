@@ -1,5 +1,5 @@
 #job-list{
-
+    scroll-margin-top: 100px
 }
 .job-context{
     font-family: 'Google Sans';
@@ -69,7 +69,7 @@
 
 .tab-item:hover{
     background: #A5B862;
-    border-style: none;
+    border-color: #A5B862;
     color: white;
     transition: ease 0.5s;
 }
@@ -83,7 +83,7 @@
 
 .tab-content{
     display: grid;
-    grid-template-columns: 544px auto;
+    grid-template-columns: 1fr 1fr;
     width: 1120px;
     margin: auto;
     grid-row-gap: 30px;
@@ -100,7 +100,6 @@
     display: block;
     justify-content: center;
     align-items: center;
-    margin: auto;
     padding: 16px;
     border: 1px solid #e0e0e0;
     box-sizing: border-box;
@@ -116,14 +115,13 @@
 }
 
 .tab-context:hover i{
-    background-color: #A5B862;
     color: white;
     transition: ease 0.5s;
 }
 
 .row{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     
 
 }
@@ -167,7 +165,7 @@
     background-color: #A5B862;
     color: white;
     transition: ease 0.5s;
-    border-style: none;
+    border-color: #A5B862;
 }
 
 .arr-icon {
@@ -185,7 +183,7 @@
 
 .block {
     display: grid;
-    grid-template-columns: 544px auto;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 

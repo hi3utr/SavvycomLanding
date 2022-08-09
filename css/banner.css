@@ -29,7 +29,7 @@
     
 }
 .img-banner .model{
-    width: 563px;
+    width: 100%;
     
 }
 
@@ -43,7 +43,7 @@
 }
 
 .scroller{
-   
+   overflow: hidden;
 }
 
 .context .dscrpt{
